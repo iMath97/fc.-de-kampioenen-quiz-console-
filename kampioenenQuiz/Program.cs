@@ -101,7 +101,7 @@ namespace kampioenenQuiz {
                 Console.Write("Answer: ");
                 AnswerIsCorrect = int.TryParse(Console.ReadLine(), out index);
 
-                if(index > 3) {
+                if(index > 3 || index < 1) {
                     AnswerIsCorrect = false;
                 }
             } while (!AnswerIsCorrect);
