@@ -1,0 +1,16 @@
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.exe
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.deps.json
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.runtimeconfig.json
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.runtimeconfig.dev.json
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.dll
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\ref\kampioenenQuiz.dll
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\bin\Debug\net5.0\kampioenenQuiz.pdb
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.csproj.AssemblyReference.cache
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.GeneratedMSBuildEditorConfig.editorconfig
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.AssemblyInfoInputs.cache
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.AssemblyInfo.cs
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.csproj.CoreCompileInputs.cache
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.dll
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\ref\kampioenenQuiz.dll
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.pdb
+A:\Personal\Hogent\Programmeren basis\Zelfstandige oefeningen\kampioenenQuiz\kampioenenQuiz\obj\Debug\net5.0\kampioenenQuiz.genruntimeconfig.cache
