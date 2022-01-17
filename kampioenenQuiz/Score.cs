@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace kampioenenQuiz {
     class Score {
-        public int value { get; set; }
+        public int Value { get; set; }
 
         public Score() {
-            this.value = 0;
+            Value = 0;
         }
     }
 }

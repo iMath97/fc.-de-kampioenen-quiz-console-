@@ -21,7 +21,7 @@ namespace kampioenenQuiz {
                 AskQuestion(questions, score, i, askedQuestionsIndexlist);
             }
 
-            Console.WriteLine($"You scored {score.value}/{amountQuestions}.");
+            Console.WriteLine($"You scored {score.Value}/{amountQuestions}.");
         }
 
         static void GenerateQuestions(Question[] questions) {
@@ -49,7 +49,7 @@ namespace kampioenenQuiz {
 
             askedQuestionsIndexlist[questionCount] = questionPosition;
 
-            Console.WriteLine(questions[questionPosition].text);
+            Console.WriteLine(questions[questionPosition].Text);
             Console.WriteLine();
             Console.WriteLine("Possible answers (choose with the number in front)");
 
@@ -59,31 +59,31 @@ namespace kampioenenQuiz {
 
             switch (order) {
                 case 0:
-                    Console.WriteLine("1: " + questions[questionPosition].answer);
-                    Console.WriteLine("2: " + questions[questionPosition].option1);
-                    Console.WriteLine("3: " + questions[questionPosition].option2);
+                    Console.WriteLine("1: " + questions[questionPosition].Answer);
+                    Console.WriteLine("2: " + questions[questionPosition].Option1);
+                    Console.WriteLine("3: " + questions[questionPosition].Option2);
 
-                    questionOrder[0] = questions[questionPosition].answer;
-                    questionOrder[1] = questions[questionPosition].option1;
-                    questionOrder[2] = questions[questionPosition].option2;
+                    questionOrder[0] = questions[questionPosition].Answer;
+                    questionOrder[1] = questions[questionPosition].Option1;
+                    questionOrder[2] = questions[questionPosition].Option2;
                     break;
                 case 1:
-                    Console.WriteLine("1: " + questions[questionPosition].option2);
-                    Console.WriteLine("2: " + questions[questionPosition].answer);
-                    Console.WriteLine("3: " + questions[questionPosition].option1);
+                    Console.WriteLine("1: " + questions[questionPosition].Option2);
+                    Console.WriteLine("2: " + questions[questionPosition].Answer);
+                    Console.WriteLine("3: " + questions[questionPosition].Option1);
 
-                    questionOrder[0] = questions[questionPosition].option2;
-                    questionOrder[1] = questions[questionPosition].answer;
-                    questionOrder[2] = questions[questionPosition].option1;
+                    questionOrder[0] = questions[questionPosition].Option2;
+                    questionOrder[1] = questions[questionPosition].Answer;
+                    questionOrder[2] = questions[questionPosition].Option1;
                     break;
                 case 2:
-                    Console.WriteLine("1: " + questions[questionPosition].option1);
-                    Console.WriteLine("2: " + questions[questionPosition].option2);
-                    Console.WriteLine("3: " + questions[questionPosition].answer);
+                    Console.WriteLine("1: " + questions[questionPosition].Option1);
+                    Console.WriteLine("2: " + questions[questionPosition].Option2);
+                    Console.WriteLine("3: " + questions[questionPosition].Answer);
 
-                    questionOrder[0] = questions[questionPosition].option1;
-                    questionOrder[1] = questions[questionPosition].option2;
-                    questionOrder[2] = questions[questionPosition].answer;
+                    questionOrder[0] = questions[questionPosition].Option1;
+                    questionOrder[1] = questions[questionPosition].Option2;
+                    questionOrder[2] = questions[questionPosition].Answer;
                     break;
             }
             Console.WriteLine();
@@ -108,18 +108,18 @@ namespace kampioenenQuiz {
 
             string guess = questionsOrder[index - 1];
 
-            checkAnswer(guess, question, score);
+            CheckAnswer(guess, question, score);
         }
 
-        static void checkAnswer(string guess, Question question, Score score) {
+        static void CheckAnswer(string guess, Question question, Score score) {
             bool correct = question.IsCorrectAnswer(guess);
 
             if (correct) {
                 Console.WriteLine("Correct!");
 
-                score.value++;
+                score.Value++;
             } else {
-                Console.WriteLine($"Sorry, the correct answer was: {question.answer}");
+                Console.WriteLine($"Sorry, the correct answer was: {question.Answer}");
             }
         }
     }
