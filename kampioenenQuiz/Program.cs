@@ -3,6 +3,7 @@
 namespace kampioenenQuiz {
     class Program {
         static void Main(string[] args) {
+            DateTime startTime = DateTime.Now;
             Score score = new Score();
             Question[] questions = new Question[5];
             int[] askedQuestionsIndexlist = new int[questions.Length];
@@ -21,7 +22,11 @@ namespace kampioenenQuiz {
                 AskQuestion(questions, score, i, askedQuestionsIndexlist);
             }
 
+            DateTime endTime = DateTime.Now;
+            TimeSpan duration = endTime - startTime;
             Console.WriteLine($"You scored {score.Value}/{amountQuestions}.");
+            Console.WriteLine($"You completed the quiz in {duration.Minutes} minutes and {duration.Seconds} seconds and {duration.Milliseconds} milliseconds.");
+
         }
 
         static void GenerateQuestions(Question[] questions) {
